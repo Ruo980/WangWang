@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wangwang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/financial_assistant"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/financial_assistant"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.UpdatePasswordActivity"></activity>
+        <activity android:name=".activity.EditNotesActivity" />
+        <activity android:name=".activity.AddNotesActivity" />
+        <activity
+            android:name=".activity.NotesActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".activity.DataMangerActivity" />
+        <activity android:name=".activity.MyAddMoneyActivity" />
+        <activity android:name=".activity.MyPayMoneyActivity" />
+        <activity android:name=".activity.PayMoneyActivity" />
+        <activity android:name=".activity.AddMoneyActivity" />
+        <activity android:name=".activity.FunctionActivity" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

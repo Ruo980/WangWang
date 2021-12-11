@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/my_notes_list_number"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/my_notes_list_name"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:text="mihur" />
+
+
+    <TextView
+        android:id="@+id/my_notes_list_notesDate"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:text="mihur" />
+
+    <TextView
+        android:id="@+id/my_notes_list_id"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:visibility="invisible" />
+
+</LinearLayout>

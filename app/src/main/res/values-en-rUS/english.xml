@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WW</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="welcome">Welcome</string>
+    <string name="incomplete_information">Incomplete Information</string>
+    <string name="register_false">register false</string>
+    <string name="login_false">Wrong account or password</string>
+    <string name="pay_success">Successfully recorded</string>
+    <string name="pay_failure">Payment amount is blank</string>
+    <string name="add_success">Successfully recorded</string>
+    <string name="add_failure">income amount is blank</string>
+</resources>
